@@ -1,0 +1,28 @@
+{
+  "name": "expresssqlite",
+  "version": "1.0.0",
+  "description": "ExpressSQLite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starfoxcom/ExpressSQLite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starfoxcom/ExpressSQLite/issues"
+  },
+  "homepage": "https://github.com/starfoxcom/ExpressSQLite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
